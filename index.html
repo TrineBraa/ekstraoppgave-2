@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id='body'>
+    <!-- Oppgave 2:
+    Lag en liten nettside med et valgfritt antall knapper, hvor hver knapp har et regnestykke i seg.
+    Når du trykker på en knapp skal du et annet sted på nettsiden, i en div for eksempel, se svaret til regnestykket du trykte på. -->
+
+    <div id="resultBox1"></div>
+    <div id="resultBox2"></div>
+    <div id="resultBox3"></div>
+    <div id="resultBox4"></div>
+    <div id="resultBox5"></div>
+
+
+    <button id="questionButton" onclick="getAnswer1()">5 + 7</button>
+    <button id="questionButton" onclick="getAnswer2(3, 6)">3 * 6</button>
+    <button id="questionButton" onclick="getAnswer3(42, 3)">42 / 3</button>
+    <button id="questionButton" onclick="getAnswer4(37, 14)">37 - 14</button>
+    <button id="questionButton" onclick="getAnswer5(64, 13)">64 + 13</button>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
